@@ -11,3 +11,5 @@ NOTE 1: if you decide to use the standalone CSS file make sure you call it into 
 NOTE 2: This very barebones - you will likely want to spruce it up to use your sites brand colors.
 
 3.) Add the code from the menu.js file either to your themes main JS file (i.e. /your-theme/js/index.js) or create a standalone JS file in /your-theme/js)  
+
+4.) Mare sure you clear your site cache and if needed clear the cache in ../application/files/cache
