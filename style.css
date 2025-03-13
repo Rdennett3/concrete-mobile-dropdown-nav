@@ -1,0 +1,41 @@
+/*NEW MOBILE MENU*/
+
+.mobile-menu {
+    list-style: none;
+    padding: 5% 0;
+}
+
+.mobile-menu li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.mobile-menu .has-children>.toggle-submenu {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    top: 10px;
+}
+
+.sub-menu {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out;
+}
+
+.sub-menu.open {
+    max-height: 500px;
+    /* Adjust as needed */
+    opacity: 1;
+    visibility: visible;
+}
